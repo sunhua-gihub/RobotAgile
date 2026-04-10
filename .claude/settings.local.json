@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd /d)",
+      "Bash(pdftotext \"d:/Mr.Sun/RobotAgile/Doc/思灵机器人工业版API手册\\(C&C++版\\) V2.19.0.pdf\" -)",
+      "Read(//tmp/**)",
+      "Bash(where pandoc:*)",
+      "Bash(where python:*)",
+      "Bash(where node:*)",
+      "Bash(pip list:*)",
+      "Bash(pip install:*)",
+      "Bash(python -m pip install fpdf2)",
+      "Bash(\"/c/Users/26047/AppData/Local/Microsoft/WindowsApps/python.exe\" --version)",
+      "Read(//c/Users/26047/AppData/Local/Programs/**)",
+      "Bash(ls /c/Python*)",
+      "Bash(where python3:*)",
+      "Bash(npm list:*)",
+      "Bash(node -e \"console.log\\('node ok'\\)\")",
+      "Bash(npm install:*)",
+      "Bash(node generate_doc.js)"
+    ]
+  }
+}
